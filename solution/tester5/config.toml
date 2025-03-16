@@ -1,0 +1,22 @@
+
+[[execs]]
+filename = "taxi.cpp"
+overwrite = { prob_id = "taxi" }
+tests = [
+  { testcase = "all", expect = "AC" },
+]
+
+[[execs]]
+filename = "taxi_overflow.cpp"
+overwrite = { prob_id = "taxi" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+]
+
+
+
+
+
+

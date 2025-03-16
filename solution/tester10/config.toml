@@ -1,0 +1,28 @@
+[[execs]]
+filename = "television.cpp"
+overwrite = { prob_id = "television" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "television_inv.cpp"
+overwrite = { prob_id = "television" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "television_RE.cpp"
+overwrite = { prob_id = "television" }
+tests = [{ testcase = "0", expect = "AC" },
+         { testcase = "1", expect = "AC" },
+         { testcase = "2", expect = "RE" },
+         { testcase = "3", expect = "RE" },
+         { testcase = "4", expect = "RE" }]
+
+[[execs]]
+filename = "television_TLE.cpp"
+overwrite = { prob_id = "television" }
+tests = [{ testcase = "0", expect = "AC" },
+         { testcase = "1", expect = "AC" },
+         { testcase = "2", expect = "AC" },
+         { testcase = "3", expect = "AC" },
+         { testcase = "4", expect = "TLE" }]
+

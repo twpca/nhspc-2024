@@ -1,0 +1,1394 @@
+[32;1m$ python3 -m scripts.judge --workers 8[0;m
+Pre compiling...: DONE
+
+Problem taxi Testcase 0:
+ validator:
+  tester1/taxi.cpp: [32mPASS[0m
+  tester5/taxi.cpp: [32mPASS[0m
+ solution:
+  tester3/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester5/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester5/taxi_overflow.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem taxi Testcase 1:
+ validator:
+  tester1/taxi.cpp: [32mPASS[0m
+  tester5/taxi.cpp: [32mPASS[0m
+ solution:
+  tester3/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.522, 0.482, 0.263, 0.462]
+  tester5/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.526, 0.468, 0.266, 0.467]
+  tester5/taxi_overflow.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.495, 0.462, 0.258, 0.456]
+
+Problem taxi Testcase 2:
+ validator:
+  tester1/taxi.cpp: [32mPASS[0m
+  tester5/taxi.cpp: [32mPASS[0m
+ solution:
+  tester3/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.421, 0.498, 0.43, 0.099]
+  tester5/taxi.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.436, 0.514, 0.437, 0.102]
+  tester5/taxi_overflow.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.413, 0.491, 0.421, 0.097]
+
+Problem paint Testcase 0:
+ validator:
+  tester1/paint.cpp: [32mPASS[0m
+  tester3/paint.cpp: [32mPASS[0m
+ solution:
+  tester3/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+  tester4/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001]
+
+Problem paint Testcase 1:
+ validator:
+  tester1/paint.cpp: [32mPASS[0m
+  tester3/paint.cpp: [32mPASS[0m
+ solution:
+  tester3/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.005, 0.003, 0.003, 0.006, 0.001, 0.013, 0.01, 0.004, 0.003, 0.011, 0.005, 0.001, 0.005, 0.002, 0.007, 0.011, 0.008, 0.004, 0.011]
+  tester4/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.003, 0.001, 0.006, 0.004, 0.004, 0.007, 0.002, 0.015, 0.012, 0.005, 0.004, 0.012, 0.006, 0.001, 0.006, 0.002, 0.009, 0.013, 0.008, 0.005, 0.012]
+  tester4/paint_s1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.004, 0.001, 0.009, 0.006, 0.005, 0.013, 0.002, 0.022, 0.017, 0.007, 0.005, 0.015, 0.009, 0.002, 0.009, 0.002, 0.016, 0.017, 0.013, 0.008, 0.017]
+  tester4/paint_s2.cpp: [32mPASS[0m
+   results:  ['AC', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.001, 1.07, 0.001, 1.073, 1.062, 1.016, 1.045, 1.036, 1.035, 1.087, 1.062, 1.004, 1.066, 1.016, 0.109, 1.039, 1.06, 1.1, 1.037, 1.085, 1.097, 1.056]
+  tester4/paint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.005, 0.002, 0.003, 0.005, 0.001, 0.015, 0.011, 0.003, 0.002, 0.011, 0.006, 0.001, 0.006, 0.001, 0.005, 0.011, 0.009, 0.005, 0.011]
+
+Problem paint Testcase 2:
+ validator:
+  tester1/paint.cpp: [32mPASS[0m
+  tester3/paint.cpp: [32mPASS[0m
+ solution:
+  tester3/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002]
+  tester4/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/paint_s1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001]
+  tester4/paint_s2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.002, 0.001, 0.002, 0.004, 0.002, 0.001, 0.003, 0.002, 0.005, 0.002, 0.002, 0.001, 0.001, 0.002, 0.003, 0.004, 0.002, 0.005, 0.001]
+  tester4/paint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem paint Testcase 3:
+ validator:
+  tester1/paint.cpp: [32mPASS[0m
+  tester3/paint.cpp: [32mPASS[0m
+ solution:
+  tester3/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.03, 0.024, 0.029, 0.022, 0.022, 0.022, 0.027, 0.03, 0.026, 0.022, 0.032, 0.03, 0.025, 0.026, 0.029, 0.029, 0.023, 0.025, 0.025, 0.029]
+  tester4/paint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.051, 0.032, 0.046, 0.032, 0.028, 0.032, 0.045, 0.055, 0.039, 0.032, 0.055, 0.052, 0.032, 0.031, 0.049, 0.05, 0.031, 0.037, 0.037, 0.046]
+  tester4/paint_s1.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.025, 0.024, 0.026, 0.027, 0.024, 0.024, 0.024, 0.025, 0.025, 0.027, 0.026, 0.025, 0.023, 0.025, 0.026, 0.024, 0.025, 0.024, 0.024, 0.025]
+  tester4/paint_s2.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.044, 1.098, 1.071, 1.022, 1.027, 1.07, 1.022, 1.004, 1.036, 1.012, 1.044, 1.014, 1.042, 1.03, 1.045, 1.031, 1.022, 1.016, 1.099, 1.093]
+  tester4/paint_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'AC', 'TLE', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'AC', 'AC', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE']
+   time:  [1.057, 0.222, 1.081, 0.234, 0.216, 0.211, 1.076, 1.078, 1.034, 0.241, 1.022, 1.102, 0.221, 0.211, 1.025, 1.1, 0.24, 1.046, 1.085, 1.01]
+
+Problem nums Testcase 0:
+ validator:
+  tester1/nums.cpp: [32mPASS[0m
+  tester6/nums.cpp: [32mPASS[0m
+ solution:
+  tester4/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester6/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.002]
+  tester6/nums_nm2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem nums Testcase 1:
+ validator:
+  tester1/nums.cpp: [32mPASS[0m
+  tester6/nums.cpp: [32mPASS[0m
+ solution:
+  tester4/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/nums_no_reverse.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/nums_wrong_condition.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/nums_wrong_condition2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/nums_wrong_condition3.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester6/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester6/nums_nm2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001]
+
+Problem nums Testcase 2:
+ validator:
+  tester1/nums.cpp: [32mPASS[0m
+  tester6/nums.cpp: [32mPASS[0m
+ solution:
+  tester4/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.005, 0.004, 0.003, 0.005, 0.013, 0.009, 0.01, 0.009, 0.012, 0.012, 0.007, 0.011, 0.01, 0.007, 0.009, 0.001, 0.001]
+  tester4/nums_no_reverse.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA']
+   time:  [0.005, 0.004, 0.003, 0.004, 0.013, 0.009, 0.011, 0.009, 0.012, 0.012, 0.008, 0.011, 0.01, 0.006, 0.01, 0.001, 0.001]
+  tester4/nums_wrong_condition.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.005, 0.004, 0.003, 0.005, 0.014, 0.009, 0.01, 0.009, 0.013, 0.012, 0.008, 0.011, 0.009, 0.006, 0.009, 0.001, 0.001]
+  tester4/nums_wrong_condition2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.005, 0.004, 0.003, 0.004, 0.014, 0.009, 0.01, 0.009, 0.013, 0.012, 0.008, 0.01, 0.009, 0.006, 0.01, 0.001, 0.001]
+  tester4/nums_wrong_condition3.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001]
+  tester6/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.003, 0.002, 0.002, 0.002, 0.002, 0.003, 0.001, 0.001]
+  tester6/nums_nm2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.127, 0.1, 0.052, 0.079, 0.311, 0.323, 0.321, 0.333, 0.332, 0.315, 0.124, 0.176, 0.134, 0.087, 0.164, 0.001, 0.001]
+  tester6/nums_nm2_overaccess.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC']
+   time:  [1.061, 1.018, 0.691, 1.08, 1.084, 1.085, 1.05, 1.093, 1.096, 1.037, 1.035, 1.057, 1.083, 1.114, 1.036, 0.001, 0.001]
+
+Problem nums Testcase 3:
+ validator:
+  tester1/nums.cpp: [32mPASS[0m
+  tester6/nums.cpp: [32mPASS[0m
+ solution:
+  tester4/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.013, 0.03, 0.064, 0.038, 0.023, 0.071, 0.117, 0.105, 0.116, 0.077, 0.05, 0.068, 0.114, 0.093, 0.061, 0.001, 0.001]
+  tester4/nums_no_reverse.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA']
+   time:  [0.013, 0.031, 0.062, 0.038, 0.023, 0.07, 0.118, 0.106, 0.116, 0.078, 0.05, 0.07, 0.113, 0.093, 0.059, 0.001, 0.001]
+  tester4/nums_wrong_condition.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.013, 0.031, 0.064, 0.039, 0.023, 0.069, 0.116, 0.105, 0.115, 0.077, 0.05, 0.067, 0.114, 0.093, 0.059, 0.001, 0.001]
+  tester4/nums_wrong_condition2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.013, 0.031, 0.062, 0.038, 0.022, 0.068, 0.114, 0.103, 0.118, 0.076, 0.051, 0.067, 0.113, 0.093, 0.06, 0.001, 0.001]
+  tester4/nums_wrong_condition3.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC']
+   time:  [0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.003, 0.003, 0.003, 0.002, 0.002, 0.003, 0.003, 0.002, 0.002, 0.001, 0.001]
+  tester6/nums.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.003, 0.004, 0.003, 0.003, 0.007, 0.005, 0.006, 0.004, 0.007, 0.004, 0.005, 0.005, 0.005, 0.006, 0.001, 0.001]
+  tester6/nums_nm2.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC']
+   time:  [1.002, 1.076, 1.063, 1.053, 1.088, 1.089, 1.022, 1.02, 1.05, 1.081, 1.069, 1.01, 1.087, 1.06, 1.04, 0.001, 0.001]
+
+Problem cover Testcase 10:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_10.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.002]
+  tester9/cover_10.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 1:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_1.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_1.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 2:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_2.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_2.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 3:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_3.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_3.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 4:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_4.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_4.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 5:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_5.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_5.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 6:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_6.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_6.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 7:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_7.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_7.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 8:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_8.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_8.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem cover Testcase 9:
+ validator:
+  tester1/cover.cpp: [32mPASS[0m
+  tester9/cover.cpp: [32mPASS[0m
+ solution:
+  tester1/cover_9.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/cover_9.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem huaguo Testcase 0:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['WA']
+   time:  [0.001]
+
+Problem huaguo Testcase 1:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_no_max.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_s1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_s2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.001, 0.002]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem huaguo Testcase 2:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_no_max.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_s1.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_s2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.001]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001]
+
+Problem huaguo Testcase 3:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'WA', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester4/huaguo_wrong_no_max.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001]
+  tester9/huaguo_extgcd_incorrect_condition.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'RE', 'RE', 'RE', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.002, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001]
+  tester9/huaguo_old_s3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC', 'AC', 'TLE', 'AC', 'TLE']
+   time:  [0.005, 0.008, 0.003, 0.003, 0.003, 0.006, 3.061, 3.076, 3.095, 3.02, 3.077, 3.081, 0.017, 0.006, 0.001, 3.012, 0.001, 3.08]
+  tester9/huaguo_s1.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.002]
+  tester9/huaguo_s2.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_s3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.005, 0.009, 0.003, 0.003, 0.003, 0.007, 0.063, 0.038, 0.015, 0.017, 0.005, 0.012, 0.018, 0.006, 0.002, 0.005, 0.001, 0.009]
+  tester9/huaguo_s3_fast.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.006, 0.008, 0.003, 0.003, 0.003, 0.007, 0.001, 0.005, 0.003, 0.002, 0.003, 0.004, 0.018, 0.006, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.002, 0.001]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'WA', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+
+Problem huaguo Testcase 4:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.003, 0.003, 0.004, 0.006, 0.006, 0.005, 0.005, 0.006, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.005, 0.007, 0.006, 0.006, 0.006, 0.005, 0.005, 0.006, 0.005, 0.005, 0.006, 0.007, 0.008, 0.002]
+  tester4/huaguo_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.004, 0.003, 0.004, 0.006, 0.006, 0.005, 0.005, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.007, 0.008, 0.002]
+  tester4/huaguo_wrong_no_max.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'AC', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.005, 0.004, 0.004, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.008, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.008, 0.008, 0.002]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.003, 0.003, 0.003, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.007, 0.007, 0.002]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.001, 0.001, 0.004, 0.003, 0.004, 0.006, 0.006, 0.005, 0.005, 0.006, 0.005, 0.008, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.009, 0.008, 0.002]
+  tester9/huaguo_extgcd_incorrect_condition.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'RE', 'AC', 'RE', 'RE', 'RE', 'RE', 'AC']
+   time:  [0.002, 0.001, 0.001, 0.004, 0.003, 0.004, 0.006, 0.006, 0.005, 0.005, 0.007, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.007, 0.006, 0.006, 0.006, 0.006, 0.006, 0.007, 0.006, 0.002, 0.002, 0.002, 0.002]
+  tester9/huaguo_s3.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'TLE', 'WA', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC', 'AC']
+   time:  [0.052, 0.059, 0.06, 3.048, 3.044, 3.015, 3.071, 3.053, 3.058, 3.083, 3.004, 3.084, 3.013, 3.017, 3.004, 3.058, 3.028, 3.032, 3.045, 3.01, 3.063, 3.033, 0.007, 3.07, 2.025, 3.089, 3.044, 3.009, 3.078, 3.027, 1.889, 2.074, 0.074]
+  tester9/huaguo_s3_fast.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'WA', 'WA', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.051, 0.065, 0.065, 3.025, 3.025, 3.094, 3.044, 3.08, 3.062, 3.043, 3.092, 3.062, 3.068, 3.036, 3.016, 3.064, 0.006, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 3.007, 1.627, 0.275, 0.487, 0.335, 0.151, 0.078, 0.15, 0.172, 0.002]
+  tester9/huaguo_s4.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.013, 0.013, 0.005, 0.022, 0.017, 0.026, 0.03, 0.008, 0.021, 0.025, 0.011, 0.028, 0.021, 0.014, 0.018, 0.006, 0.011, 0.015, 0.014, 0.015, 0.016, 0.006, 0.026, 0.022, 0.023, 0.026, 0.029, 0.015, 0.023, 0.018, 0.018, 0.004]
+  tester9/huaguo_s4_cut.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.002, 0.014, 0.014, 0.006, 0.022, 0.018, 0.027, 0.031, 0.006, 0.021, 0.026, 0.012, 0.03, 0.022, 0.013, 0.018, 0.015, 0.03, 0.038, 0.036, 0.037, 0.038, 0.006, 0.034, 0.069, 0.496, 0.558, 0.99, 1.972, 3.014, 3.047, 3.1, 3.029]
+  tester9/huaguo_s4_incorrect_condition.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'AC']
+   time:  [0.002, 0.013, 0.014, 0.005, 0.022, 0.017, 0.027, 0.031, 0.007, 0.021, 0.026, 0.012, 0.029, 0.021, 0.014, 0.018, 0.006, 0.011, 0.015, 0.014, 0.015, 0.015, 0.006, 0.025, 0.025, 0.026, 0.03, 0.026, 0.06, 0.285, 3.037, 3.104, 0.003]
+  tester9/huaguo_s4_no_math.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.002, 0.013, 0.013, 0.006, 0.022, 0.018, 0.026, 0.031, 0.008, 0.02, 0.025, 0.011, 0.028, 0.021, 0.014, 0.018, 0.015, 0.03, 0.038, 0.037, 0.036, 0.039, 0.006, 0.035, 0.113, 0.858, 0.897, 1.633, 1.907, 3.05, 3.036, 3.029, 3.009]
+  tester9/huaguo_s4_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [0.002, 0.013, 0.013, 0.006, 0.027, 0.022, 0.028, 0.032, 0.005, 0.021, 0.027, 0.012, 0.03, 0.021, 0.014, 0.018, 0.015, 0.03, 0.039, 0.036, 0.036, 0.039, 0.006, 0.035, 0.11, 0.846, 0.904, 1.631, 1.906, 3.136, 3.006, 3.067, 3.028]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.002, 0.006, 0.015, 0.008, 0.024, 0.033, 0.005, 0.021, 0.032, 0.012, 0.034, 0.014, 0.006, 0.021, 0.006, 0.012, 0.016, 0.014, 0.016, 0.016, 0.006, 0.023, 0.019, 0.016, 0.02, 0.016, 0.014, 0.015, 0.015, 0.012, 0.003]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.003, 0.003, 0.004, 0.005, 0.006, 0.005, 0.005, 0.006, 0.005, 0.006, 0.005, 0.005, 0.005, 0.005, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.007, 0.007, 0.002]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.003, 0.003, 0.004, 0.006, 0.006, 0.004, 0.005, 0.006, 0.005, 0.006, 0.004, 0.005, 0.006, 0.007, 0.005, 0.006, 0.005, 0.005, 0.005, 0.006, 0.005, 0.005, 0.005, 0.006, 0.005, 0.005, 0.006, 0.007, 0.007, 0.002]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.004, 0.003, 0.003, 0.006, 0.006, 0.005, 0.005, 0.006, 0.005, 0.007, 0.005, 0.006, 0.006, 0.006, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 0.006, 0.006, 0.007, 0.006, 0.006, 0.006, 0.006, 0.007, 0.007, 0.002]
+  tester9/huaguo_sol_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'AC', 'WA']
+   time:  [0.001, 0.001, 0.001, 0.003, 0.003, 0.003, 0.005, 0.005, 0.004, 0.005, 0.005, 0.005, 0.005, 0.004, 0.006, 0.005, 0.005, 0.005, 0.005, 0.005, 0.006, 0.006, 0.006, 0.006, 0.008, 0.006, 0.006, 0.005, 0.006, 0.006, 0.007, 0.007, 0.002]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.002, 0.001, 0.001, 0.003, 0.003, 0.004, 0.006, 0.006, 0.006, 0.005, 0.006, 0.006, 0.006, 0.004, 0.005, 0.005, 0.005, 0.006, 0.005, 0.005, 0.006, 0.005, 0.006, 0.006, 0.006, 0.005, 0.005, 0.005, 0.006, 0.006, 0.007, 0.007, 0.002]
+
+Problem huaguo Testcase 5:
+ validator:
+  tester9/huaguo.cpp: [32mPASS[0m
+ solution:
+  tester4/huaguo.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.061, 0.06, 0.062, 0.06, 0.061, 0.064, 0.061, 0.06, 0.06, 0.064, 0.06, 0.06, 0.059, 0.064, 0.085, 0.123, 0.113, 0.055]
+  tester4/huaguo_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.061, 0.06, 0.061, 0.061, 0.062, 0.066, 0.061, 0.063, 0.061, 0.063, 0.066, 0.062, 0.062, 0.065, 0.087, 0.123, 0.113, 0.057]
+  tester4/huaguo_wrong_no_max.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.064, 0.061, 0.062, 0.091, 0.061, 0.064, 0.063, 0.062, 0.062, 0.066, 0.061, 0.061, 0.07, 0.065, 0.088, 0.127, 0.114, 0.059]
+  tester9/huaguo_extgcd.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.059, 0.059, 0.059, 0.059, 0.059, 0.058, 0.06, 0.06, 0.06, 0.063, 0.06, 0.061, 0.063, 0.065, 0.089, 0.14, 0.11, 0.066]
+  tester9/huaguo_extgcd_assert.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.059, 0.061, 0.058, 0.058, 0.06, 0.062, 0.06, 0.066, 0.061, 0.059, 0.059, 0.06, 0.059, 0.063, 0.094, 0.148, 0.103, 0.068]
+  tester9/huaguo_extgcd_bad_adjust.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC']
+   time:  [0.863, 0.059, 0.06, 0.058, 3.06, 3.086, 3.038, 3.072, 3.078, 3.046, 3.069, 3.023, 3.046, 3.018, 3.058, 3.04, 3.045, 3.074, 0.066]
+  tester9/huaguo_extgcd_ll.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.059, 0.059, 0.058, 0.06, 0.065, 0.059, 0.061, 0.06, 0.063, 0.059, 0.058, 0.06, 0.058, 0.062, 0.083, 0.123, 0.101, 0.056]
+  tester9/huaguo_s4.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'TLE', 'TLE', 'TLE', 'TLE', 'WA', 'AC']
+   time:  [0.004, 0.23, 0.223, 0.221, 0.434, 0.449, 0.471, 0.433, 0.421, 0.432, 0.443, 0.446, 1.098, 3.086, 3.019, 3.016, 3.082, 0.796, 0.823]
+  tester9/huaguo_simulate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.239, 0.24, 0.233, 1.033, 1.105, 1.1, 1.134, 1.224, 1.22, 1.132, 1.156, 0.784, 0.752, 0.798, 0.736, 0.607, 0.144, 0.308]
+  tester9/huaguo_simulate_bad_adjust.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.24, 0.243, 0.244, 1.058, 1.141, 1.133, 1.156, 1.238, 1.222, 1.169, 1.144, 0.761, 0.762, 0.802, 0.719, 0.596, 0.144, 0.309]
+  tester9/huaguo_simulate_wrong.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC']
+   time:  [0.597, 0.237, 0.241, 0.23, 3.069, 3.044, 3.044, 3.085, 3.008, 3.026, 3.001, 3.037, 3.026, 3.076, 3.003, 3.075, 3.042, 3.017, 0.289]
+  tester9/huaguo_simulate_wrong2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'AC']
+   time:  [0.001, 0.246, 0.245, 0.238, 3.081, 3.04, 3.02, 3.087, 3.076, 3.03, 3.091, 3.017, 3.046, 3.028, 3.025, 3.076, 3.043, 3.018, 0.842]
+  tester9/huaguo_simulate_wrong3.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'WA']
+   time:  [0.001, 0.246, 0.25, 0.245, 3.075, 3.061, 3.015, 3.058, 3.006, 3.085, 3.063, 3.091, 3.049, 3.071, 3.098, 3.008, 3.034, 3.063, 0.484]
+  tester9/huaguo_simulate_wrong4.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.235, 0.24, 0.236, 1.031, 1.093, 1.101, 1.138, 1.206, 1.202, 1.123, 1.14, 0.793, 0.766, 0.792, 0.709, 0.589, 0.143, 0.312]
+  tester9/huaguo_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.058, 0.057, 0.057, 0.06, 0.059, 0.063, 0.06, 0.059, 0.06, 0.062, 0.06, 0.06, 0.06, 0.063, 0.083, 0.119, 0.104, 0.054]
+  tester9/huaguo_sol2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.058, 0.058, 0.058, 0.06, 0.063, 0.063, 0.061, 0.065, 0.066, 0.066, 0.065, 0.064, 0.063, 0.07, 0.086, 0.122, 0.108, 0.055]
+  tester9/huaguo_sol2_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.062, 0.061, 0.059, 0.061, 0.061, 0.068, 0.06, 0.071, 0.063, 0.064, 0.066, 0.073, 0.063, 0.064, 0.092, 0.117, 0.111, 0.054]
+  tester9/huaguo_sol_floor.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.058, 0.06, 0.059, 0.06, 0.061, 0.062, 0.062, 0.061, 0.063, 0.061, 0.066, 0.066, 0.06, 0.065, 0.087, 0.123, 0.105, 0.055]
+  tester9/huaguo_sol_wrong_ceil.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.001, 0.06, 0.061, 0.057, 0.061, 0.059, 0.061, 0.058, 0.059, 0.063, 0.064, 0.062, 0.064, 0.068, 0.064, 0.086, 0.125, 0.108, 0.056]
+
+Problem indset Testcase 0:
+ validator:
+  tester2/indset.cpp: [32mPASS[0m
+ solution:
+  tester2/indset.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/indset_sort.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester1/indset.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester1/indset_2n_q_wa.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester1/indset_qnn.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+
+Problem indset Testcase 1:
+ validator:
+  tester2/indset.cpp: [32mPASS[0m
+ solution:
+  tester2/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.004, 0.004, 0.097, 0.09, 0.072, 0.103, 0.107, 0.106, 0.066, 0.05]
+  tester2/indset_sort.cpp: [32mPASS[0m
+   results:  ['AC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC']
+   time:  [0.003, 0.004, 0.104, 0.103, 0.08, 0.132, 0.119, 0.123, 0.067, 0.06]
+   score:  [1.0, 0.86, 0.65, 0.58, 0.58, 0.51, 0.51, 0.51, 0.72, 0.72]
+   score_min:  0.51
+  tester2/indset_subtask1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.07, 0.081, 0.062, 0.084, 0.08, 0.085, 0.049, 0.041]
+  tester1/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.096, 0.097, 0.077, 0.11, 0.099, 0.105, 0.059, 0.048]
+  tester1/indset_2n_q_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.005, 0.119, 0.117, 0.088, 0.114, 0.115, 0.114, 0.07, 0.056]
+  tester1/indset_qnn.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.099, 0.099, 0.079, 0.105, 0.105, 0.105, 0.064, 0.052]
+
+Problem indset Testcase 2:
+ validator:
+  tester2/indset.cpp: [32mPASS[0m
+ solution:
+  tester2/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.07, 0.064, 0.047, 0.112, 0.109, 0.062, 0.027, 0.039]
+  tester2/indset_sort.cpp: [32mPASS[0m
+   results:  ['AC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC']
+   time:  [0.003, 0.004, 0.085, 0.086, 0.053, 0.119, 0.126, 0.072, 0.029, 0.043]
+   score:  [1.0, 0.86, 0.58, 0.58, 0.65, 0.65, 0.65, 0.65, 0.65, 0.65]
+   score_min:  0.58
+  tester2/indset_subtask2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.062, 0.055, 0.041, 0.092, 0.101, 0.054, 0.026, 0.033]
+  tester1/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.084, 0.081, 0.05, 0.17, 0.172, 0.071, 0.028, 0.043]
+  tester1/indset_2n_q_wa.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.004, 0.094, 0.092, 0.058, 0.128, 0.133, 0.084, 0.029, 0.045]
+
+Problem indset Testcase 3:
+ validator:
+  tester2/indset.cpp: [32mPASS[0m
+ solution:
+  tester2/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.004, 0.017, 0.074, 0.07, 0.074, 0.067, 0.079, 0.079, 0.051, 0.075, 0.029, 0.031, 0.09, 0.039, 0.032, 0.089, 0.048, 0.096, 0.051, 0.078, 0.069, 0.081, 0.08, 0.08, 0.072, 0.058, 0.064, 0.039, 0.032, 0.032]
+  tester2/indset_sort.cpp: [32mPASS[0m
+   results:  ['AC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC']
+   time:  [0.003, 0.017, 0.082, 0.093, 0.089, 0.079, 0.097, 0.095, 0.061, 0.091, 0.044, 0.045, 0.103, 0.046, 0.049, 0.088, 0.057, 0.093, 0.066, 0.099, 0.085, 0.098, 0.098, 0.09, 0.097, 0.069, 0.081, 0.044, 0.034, 0.033]
+   score:  [1.0, 0.86, 0.65, 0.58, 0.58, 0.65, 0.58, 0.58, 0.65, 0.58, 0.58, 0.58, 0.51, 0.58, 0.51, 0.72, 0.65, 0.72, 0.65, 0.51, 0.51, 0.51, 0.58, 0.51, 0.51, 0.58, 0.58, 0.65, 0.72, 0.72]
+   score_min:  0.51
+  tester1/indset.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.016, 0.088, 0.091, 0.087, 0.077, 0.096, 0.093, 0.061, 0.094, 0.044, 0.042, 0.097, 0.048, 0.042, 0.086, 0.053, 0.093, 0.06, 0.082, 0.075, 0.093, 0.093, 0.096, 0.085, 0.06, 0.073, 0.04, 0.034, 0.034]
+  tester1/indset_2n_q_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'AC', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'AC', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.003, 0.016, 0.1, 0.101, 0.103, 0.083, 0.1, 0.101, 0.06, 0.098, 0.061, 0.058, 0.109, 0.05, 0.06, 0.106, 0.075, 0.106, 0.073, 0.104, 0.081, 0.097, 0.099, 0.094, 0.096, 0.066, 0.079, 0.042, 0.033, 0.033]
+
+Problem television Testcase 0:
+ validator:
+  tester1/television.cpp: [32mPASS[0m
+  tester10/television.cpp: [32mPASS[0m
+ solution:
+  tester4/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.173, 0.175]
+  tester9/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.046, 0.046]
+  tester10/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.138, 0.137]
+  tester10/television_RE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.067, 0.068]
+  tester10/television_TLE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester10/television_inv.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.132, 0.127]
+
+Problem television Testcase 1:
+ validator:
+  tester1/television.cpp: [32mPASS[0m
+  tester10/television.cpp: [32mPASS[0m
+ solution:
+  tester4/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.181, 0.179, 0.178]
+  tester9/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.045, 0.047, 0.083]
+  tester10/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.138, 0.136, 0.117]
+  tester10/television_RE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.068, 0.068, 0.069]
+  tester10/television_TLE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.037]
+  tester10/television_inv.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC']
+   time:  [0.136, 0.135, 0.133]
+
+Problem television Testcase 2:
+ validator:
+  tester1/television.cpp: [32mPASS[0m
+  tester10/television.cpp: [32mPASS[0m
+ solution:
+  tester4/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.208, 0.213, 0.207, 0.211]
+  tester9/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.046, 0.046, 0.083, 0.083]
+  tester10/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.143, 0.148, 0.128, 0.126]
+  tester10/television_RE.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'RE']
+   time:  [0.069, 0.067, 0.067, 0.175]
+  tester10/television_TLE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.037, 0.038, 0.074]
+  tester10/television_inv.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.146, 0.142, 0.147, 0.146]
+
+Problem television Testcase 3:
+ validator:
+  tester1/television.cpp: [32mPASS[0m
+  tester10/television.cpp: [32mPASS[0m
+ solution:
+  tester4/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.219, 0.216, 0.217, 0.213]
+  tester9/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.056, 0.077, 0.048, 0.083]
+  tester10/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.14, 0.13, 0.138, 0.127]
+  tester10/television_RE.cpp: [32mPASS[0m
+   results:  ['AC', 'RE', 'WA', 'RE']
+   time:  [0.073, 0.184, 0.072, 0.179]
+  tester10/television_TLE.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.051, 0.076, 0.037, 0.108]
+  tester10/television_inv.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.146, 0.144, 0.143, 0.142]
+
+Problem television Testcase 4:
+ validator:
+  tester1/television.cpp: [32mPASS[0m
+  tester10/television.cpp: [32mPASS[0m
+ solution:
+  tester4/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.281, 0.298, 0.339, 0.34]
+  tester9/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.145, 0.171, 0.21, 0.202]
+  tester10/television.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.17, 0.173, 0.193, 0.193]
+  tester10/television_RE.cpp: [32mPASS[0m
+   results:  ['RE', 'RE', 'RE', 'RE']
+   time:  [0.231, 0.232, 0.257, 0.259]
+  tester10/television_TLE.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE']
+   time:  [10.099, 10.004, 10.101, 10.1]
+  tester10/television_inv.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.18, 0.189, 0.213, 0.213]
+
+Problem fingerprint Testcase 0:
+ validator:
+  tester1/fingerprint.cpp: [32mPASS[0m
+  tester7/fingerprint.cpp: [32mPASS[0m
+ solution:
+  tester4/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.006, 0.005]
+  tester7/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester7/fingerprint_n_log_n.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester7/fingerprint_overflow.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester7/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester7/fingerprint_tle2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester9/fingerprint_s1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester9/fingerprint_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+  tester9/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.001, 0.001]
+
+Problem fingerprint Testcase 1:
+ validator:
+  tester1/fingerprint.cpp: [32mPASS[0m
+  tester7/fingerprint.cpp: [32mPASS[0m
+ solution:
+  tester4/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.007, 0.008, 0.007, 0.008, 0.007, 0.007, 0.008, 0.008, 0.007, 0.007, 0.008, 0.008, 0.007, 0.008, 0.007]
+  tester7/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.001, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester7/fingerprint_n_log_n.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.002, 0.002, 0.002, 0.002, 0.002, 0.002, 0.001, 0.002, 0.001, 0.001, 0.001, 0.001, 0.002]
+  tester7/fingerprint_overflow.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.001, 0.001, 0.002, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester7/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.007, 0.006, 0.006, 0.007, 0.001, 0.007, 0.006, 0.006, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008, 0.008]
+  tester7/fingerprint_tle2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.001, 0.002, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.004, 0.002, 0.003, 0.004, 0.002, 0.004, 0.002]
+  tester9/fingerprint_s1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.004, 0.004, 0.004, 0.004, 0.001, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004, 0.004]
+  tester9/fingerprint_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.002, 0.002, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001, 0.001]
+  tester9/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.062, 0.042, 0.044, 0.062, 0.001, 0.063, 0.034, 0.049, 0.074, 0.07, 0.072, 0.072, 0.07, 0.072, 0.071]
+
+Problem fingerprint Testcase 2:
+ validator:
+  tester1/fingerprint.cpp: [32mPASS[0m
+  tester7/fingerprint.cpp: [32mPASS[0m
+ solution:
+  tester4/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.034, 0.013, 0.019, 0.018, 0.025, 0.034, 0.025, 0.028, 0.025, 0.044, 0.029, 0.026, 0.025, 0.023, 0.028]
+  tester4/fingerprint_bad_mod.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'AC', 'AC', 'WA', 'AC', 'WA', 'AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.049, 0.014, 0.021, 0.015, 0.025, 0.03, 0.028, 0.031, 0.022, 0.039, 0.025, 0.028, 0.024, 0.021, 0.026]
+  tester7/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.037, 0.008, 0.017, 0.012, 0.019, 0.029, 0.024, 0.027, 0.019, 0.029, 0.017, 0.017, 0.017, 0.016, 0.02]
+  tester7/fingerprint_n_log_n.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.124, 0.024, 0.047, 0.039, 0.061, 0.103, 0.077, 0.089, 0.063, 0.14, 0.079, 0.07, 0.069, 0.059, 0.092]
+  tester7/fingerprint_overflow.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.033, 0.008, 0.012, 0.011, 0.02, 0.021, 0.022, 0.02, 0.017, 0.033, 0.019, 0.02, 0.019, 0.016, 0.023]
+  tester7/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.012, 1.046, 1.033, 1.058, 1.063, 1.063, 1.055, 1.06, 1.028, 1.043, 1.037, 1.014, 1.086, 1.08, 1.022]
+  tester7/fingerprint_tle2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.033, 0.009, 0.014, 0.01, 0.018, 0.023, 0.021, 0.021, 0.017, 0.029, 0.018, 0.015, 0.02, 0.013, 0.023]
+  tester9/fingerprint_s1.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.056, 1.084, 1.04, 1.047, 1.04, 1.012, 1.072, 1.051, 1.037, 1.004, 1.016, 1.045, 1.073, 1.026, 1.004]
+  tester9/fingerprint_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.033, 0.008, 0.012, 0.011, 0.018, 0.027, 0.02, 0.022, 0.02, 0.036, 0.019, 0.017, 0.018, 0.014, 0.022]
+  tester9/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.036, 1.065, 1.006, 1.04, 1.012, 1.03, 1.033, 1.099, 1.099, 1.059, 1.022, 1.099, 1.097, 1.012, 1.046]
+
+Problem fingerprint Testcase 3:
+ validator:
+  tester1/fingerprint.cpp: [32mPASS[0m
+  tester7/fingerprint.cpp: [32mPASS[0m
+ solution:
+  tester4/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.024, 0.026, 0.171, 0.185, 0.174, 0.169, 0.163, 0.173, 0.168, 0.164, 0.168, 0.165, 0.175, 0.164, 0.159]
+  tester4/fingerprint_bad_mod.cpp: [32mPASS[0m
+   results:  ['AC', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.022, 0.025, 0.168, 0.163, 0.172, 0.16, 0.157, 0.176, 0.158, 0.163, 0.164, 0.16, 0.155, 0.161, 0.16]
+  tester7/fingerprint.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.02, 0.026, 0.174, 0.173, 0.174, 0.18, 0.17, 0.177, 0.193, 0.196, 0.186, 0.184, 0.187, 0.194, 0.18]
+  tester7/fingerprint_n_log_n.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.038, 0.053, 0.392, 0.4, 0.38, 0.383, 0.364, 0.406, 0.356, 0.356, 0.359, 0.359, 0.351, 0.354, 0.358]
+  tester7/fingerprint_overflow.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.018, 0.022, 0.175, 0.176, 0.168, 0.166, 0.163, 0.167, 0.175, 0.178, 0.181, 0.188, 0.177, 0.185, 0.175]
+  tester7/fingerprint_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.067, 1.081, 1.039, 1.071, 1.043, 1.027, 1.052, 1.055, 1.044, 1.033, 1.055, 1.04, 1.024, 1.099, 1.052]
+  tester7/fingerprint_tle2.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'AC', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [1.043, 1.047, 1.059, 0.832, 1.065, 1.052, 1.072, 0.887, 1.048, 1.101, 1.018, 1.041, 1.006, 1.046, 1.077]
+  tester9/fingerprint_sol.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.019, 0.02, 0.17, 0.167, 0.16, 0.164, 0.169, 0.172, 0.155, 0.163, 0.169, 0.16, 0.161, 0.156, 0.157]
+
+Problem pirate Testcase 0:
+ validator:
+  tester1/pirate.cpp: [32mPASS[0m
+  tester8/pirate.cpp: [32mPASS[0m
+ solution:
+  tester2/pirate.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/pirate_bfs_wa.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/pirate_dfs_wa.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.004]
+  tester2/pirate_nm_tle.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/pirate_no_random_wa1.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester2/pirate_no_random_wa2.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester8/pirate.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester8/pirate_subtask1.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester8/pirate_subtask2.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester8/pirate_subtask3.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/pirate.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/pirate_hulan1.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/pirate_hulan_good.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/pirate_hulan_strong.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+  tester9/pirate_slow.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem pirate Testcase 1:
+ validator:
+  tester1/pirate.cpp: [32mPASS[0m
+  tester8/pirate.cpp: [32mPASS[0m
+ solution:
+  tester2/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.029, 0.013, 0.067, 0.039]
+  tester2/pirate_bfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA']
+   time:  [0.007, 0.004, 0.012, 0.008]
+  tester2/pirate_dfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA']
+   time:  [0.008, 0.004, 0.011, 0.008]
+  tester2/pirate_nm_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.011, 0.008, 0.323, 0.046]
+  tester2/pirate_no_random_wa1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.038, 0.017, 0.075, 0.048]
+  tester2/pirate_no_random_wa2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.031, 0.014, 0.06, 0.037]
+  tester8/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.031, 0.013, 0.071, 0.042]
+  tester8/pirate_subtask1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.076, 0.063, 0.074, 0.075]
+  tester8/pirate_subtask2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.009, 0.006, 0.045, 0.02]
+  tester8/pirate_subtask3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.008, 0.005, 0.017, 0.017]
+  tester9/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.047, 0.019, 0.124, 0.065]
+  tester9/pirate_hulan1.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'AC', 'WA']
+   time:  [0.007, 0.002, 0.011, 0.007]
+  tester9/pirate_hulan_good.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.01, 0.004, 0.013, 0.009]
+  tester9/pirate_hulan_strong.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.038, 0.01, 0.019, 0.023]
+  tester9/pirate_slow.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.009, 0.006, 0.04, 0.018]
+
+Problem pirate Testcase 2:
+ validator:
+  tester1/pirate.cpp: [32mPASS[0m
+  tester8/pirate.cpp: [32mPASS[0m
+ solution:
+  tester2/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.468, 0.422, 0.487, 0.436]
+  tester2/pirate_bfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA']
+   time:  [0.009, 0.009, 0.009, 0.009]
+  tester2/pirate_dfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA']
+   time:  [0.009, 0.01, 0.011, 0.01]
+  tester2/pirate_nm_tle.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.214, 0.259, 0.544, 0.312]
+  tester2/pirate_no_random_wa1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.484, 0.47, 0.503, 0.439]
+  tester2/pirate_no_random_wa2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.465, 0.47, 0.487, 0.429]
+  tester8/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.665, 0.591, 0.745, 0.626]
+  tester8/pirate_subtask1.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.111, 3.109, 3.11, 3.104]
+  tester8/pirate_subtask2.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.393, 0.404, 0.561, 0.311]
+  tester9/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.117, 0.12, 0.169, 0.138]
+  tester9/pirate_hulan1.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'AC', 'AC']
+   time:  [0.015, 0.013, 0.016, 0.013]
+  tester9/pirate_hulan_good.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.058, 0.052, 0.039, 0.041]
+  tester9/pirate_hulan_strong.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.193, 0.147, 0.104, 0.118]
+  tester9/pirate_slow.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC']
+   time:  [0.375, 0.329, 0.559, 0.287]
+
+Problem pirate Testcase 3:
+ validator:
+  tester1/pirate.cpp: [32mPASS[0m
+  tester8/pirate.cpp: [32mPASS[0m
+ solution:
+  tester2/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.151, 1.17, 1.018, 1.197, 1.094, 1.076, 0.883]
+  tester2/pirate_bfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.024, 0.024, 0.02, 0.024, 0.021, 0.022, 0.021]
+  tester2/pirate_dfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.024, 0.024, 0.021, 0.025, 0.024, 0.024, 0.024]
+  tester2/pirate_nm_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.011, 3.054, 3.067, 3.087, 3.008, 3.075, 3.021]
+  tester2/pirate_no_random_wa1.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.1, 1.122, 0.924, 1.022, 0.987, 0.894, 0.766]
+  tester2/pirate_no_random_wa2.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.112, 1.121, 0.96, 1.049, 0.952, 0.981, 0.92]
+  tester8/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.415, 1.44, 1.257, 1.368, 1.285, 1.295, 1.219]
+  tester8/pirate_subtask1.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.126, 3.071, 3.073, 3.092, 3.08, 3.082, 3.131]
+  tester8/pirate_subtask2.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.065, 3.109, 3.037, 3.113, 3.046, 3.109, 3.115]
+  tester8/pirate_subtask3.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.909, 0.968, 0.631, 0.766, 0.588, 0.679, 0.69]
+  tester9/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.613, 0.644, 0.528, 0.59, 0.527, 0.51, 0.483]
+  tester9/pirate_hulan1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.021, 0.022, 0.04, 0.047, 0.055, 0.057, 0.055]
+  tester9/pirate_hulan_good.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.024, 0.025, 0.154, 0.154, 0.139, 0.205, 0.257]
+  tester9/pirate_hulan_strong.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.026, 0.024, 0.243, 0.24, 0.224, 0.3, 0.422]
+  tester9/pirate_slow.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.09, 3.007, 3.035, 3.036, 3.103, 3.05, 3.09]
+
+Problem pirate Testcase 4:
+ validator:
+  tester1/pirate.cpp: [32mPASS[0m
+  tester8/pirate.cpp: [32mPASS[0m
+ solution:
+  tester2/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.118, 1.187, 0.973, 1.183, 1.022, 1.026, 0.838]
+  tester2/pirate_bfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.023, 0.023, 0.02, 0.022, 0.021, 0.022, 0.021]
+  tester2/pirate_dfs_wa.cpp: [32mPASS[0m
+   results:  ['WA', 'WA', 'WA', 'WA', 'WA', 'WA', 'WA']
+   time:  [0.024, 0.024, 0.023, 0.023, 0.024, 0.023, 0.021]
+  tester2/pirate_nm_tle.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.092, 3.078, 3.025, 3.081, 3.077, 3.025, 3.056]
+  tester2/pirate_no_random_wa1.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.102, 1.103, 0.937, 1.089, 0.964, 1.0, 0.829]
+  tester2/pirate_no_random_wa2.cpp: [32mPASS[0m
+   results:  ['WA', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.018, 1.114, 0.983, 0.969, 0.962, 0.981, 0.847]
+  tester8/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [1.389, 1.396, 1.243, 1.353, 1.298, 1.272, 1.241]
+  tester8/pirate_subtask1.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.111, 3.059, 3.09, 3.098, 3.069, 3.094, 3.108]
+  tester8/pirate_subtask2.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.108, 3.092, 3.087, 3.117, 3.064, 3.052, 3.048]
+  tester8/pirate_subtask3.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'AC', 'AC', 'TLE']
+   time:  [3.069, 3.118, 3.04, 3.114, 0.624, 1.024, 3.057]
+  tester9/pirate.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.596, 0.644, 0.519, 0.58, 0.518, 0.516, 0.486]
+  tester9/pirate_hulan1.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'WA']
+   time:  [0.022, 0.024, 0.047, 0.048, 0.061, 0.061, 0.056]
+  tester9/pirate_hulan_good.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.023, 0.023, 0.18, 0.151, 0.154, 0.223, 0.267]
+  tester9/pirate_hulan_strong.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.028, 0.03, 0.248, 0.236, 0.236, 0.304, 0.401]
+  tester9/pirate_slow.cpp: [32mPASS[0m
+   results:  ['TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE', 'TLE']
+   time:  [3.07, 3.032, 3.04, 3.097, 3.063, 3.075, 3.065]
+
+Problem collinear Testcase 0:
+ validator:
+  tester1/collinear.cpp: [32mPASS[0m
+ solution:
+  tester1/collinear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.003, 0.003]
+
+Problem collinear Testcase 1:
+ validator:
+  tester1/collinear.cpp: [32mPASS[0m
+ solution:
+  tester1/collinear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.022, 0.021, 0.22, 0.022, 0.021, 0.214, 0.22, 0.215, 0.021, 0.214, 0.217]
+
+Problem collinear Testcase 2:
+ validator:
+  tester1/collinear.cpp: [32mPASS[0m
+ solution:
+  tester1/collinear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.003, 0.015, 0.003, 0.447, 0.006, 0.442, 0.438, 0.439, 0.009]
+
+Problem collinear Testcase 3:
+ validator:
+  tester1/collinear.cpp: [32mPASS[0m
+ solution:
+  tester1/collinear.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.054, 0.048, 0.216, 0.098, 0.068, 0.232, 0.214, 0.218, 0.093, 0.225, 0.214]
+
+Problem permutation Testcase 0:
+ validator:
+  tester1/permutation.cpp: [32mPASS[0m
+ solution:
+  tester1/permutation.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+  tester1/permutation_stdsort.cpp: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.003]
+
+Problem permutation Testcase 1:
+ validator:
+  tester1/permutation.cpp: [32mPASS[0m
+ solution:
+  tester1/permutation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.003, 0.003]
+  tester1/permutation_stdsort.cpp: [32mPASS[0m
+   results:  ['AC', 'AC']
+   time:  [0.003, 0.003]
+
+Problem permutation Testcase 2:
+ validator:
+  tester1/permutation.cpp: [32mPASS[0m
+ solution:
+  tester1/permutation.cpp: [32mPASS[0m
+   results:  ['AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC', 'AC']
+   time:  [0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006, 0.006]
+  tester1/permutation_stdsort.cpp: [32mPASS[0m
+   results:  ['PC', 'AC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC', 'PC']
+   time:  [0.006, 0.005, 0.007, 0.006, 0.007, 0.006, 0.006, 0.009, 0.009]
+   score:  [0.904534, 1.0, 0.83205, 0.866025, 0.866025, 0.83205, 0.866025, 0.625543, 0.6]
+   score_min:  0.6
+
+Problem sudoku Testcase 10:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_10.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.002]
+   score:  [0.831596]
+   score_min:  0.831596
+
+Problem sudoku Testcase 1:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_1.txt: [32mPASS[0m
+   results:  ['AC']
+   time:  [0.001]
+
+Problem sudoku Testcase 2:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_2.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.744681]
+   score_min:  0.744681
+
+Problem sudoku Testcase 3:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_3.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.75]
+   score_min:  0.75
+
+Problem sudoku Testcase 4:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_4.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.843]
+   score_min:  0.843
+
+Problem sudoku Testcase 5:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_5.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.002]
+   score:  [0.925094]
+   score_min:  0.925094
+
+Problem sudoku Testcase 6:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_6.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.777778]
+   score_min:  0.777778
+
+Problem sudoku Testcase 7:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_7.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.875433]
+   score_min:  0.875433
+
+Problem sudoku Testcase 8:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_8.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.811569]
+   score_min:  0.811569
+
+Problem sudoku Testcase 9:
+ validator:
+  tester1/sudoku.cpp: [32mPASS[0m
+ solution:
+  tester1/sudoku_9.txt: [32mPASS[0m
+   results:  ['PC']
+   time:  [0.001]
+   score:  [0.697541]
+   score_min:  0.697541
+
+All tests passed
+section_end:1733559300:step_script
+[0Ksection_start:1733559300:cleanup_file_variables
+[0K[0K[36;1mCleaning up project directory and file based variables[0;m[0;m
+section_end:1733559301:cleanup_file_variables
+[0K[32;1mJob succeeded[0;m

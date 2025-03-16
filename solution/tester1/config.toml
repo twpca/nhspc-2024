@@ -1,0 +1,208 @@
+[[execs]]
+filename = "indset_2n_q_wa.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "indset_qnn.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" }
+  # skip subtask 2, 3 due to uncertain results
+]
+
+
+[[execs]]
+filename = "permutation_stdsort.cpp"
+overwrite = { prob_id = "permutation" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "PC" }
+]
+
+[[execs]]
+filename = "sudoku_1.txt"
+tests = [{ testcase = "1", expect = "AC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_1.txt"
+cms_filename = "output_1_1.txt"
+
+[[execs]]
+filename = "sudoku_2.txt"
+tests = [{ testcase = "2", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_2.txt"
+cms_filename = "output_2_1.txt"
+
+[[execs]]
+filename = "sudoku_3.txt"
+tests = [{ testcase = "3", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_3.txt"
+cms_filename = "output_3_1.txt"
+
+[[execs]]
+filename = "sudoku_4.txt"
+tests = [{ testcase = "4", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_4.txt"
+cms_filename = "output_4_1.txt"
+
+[[execs]]
+filename = "sudoku_5.txt"
+tests = [{ testcase = "5", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_5.txt"
+cms_filename = "output_5_1.txt"
+
+[[execs]]
+filename = "sudoku_6.txt"
+tests = [{ testcase = "6", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_6.txt"
+cms_filename = "output_6_1.txt"
+
+[[execs]]
+filename = "sudoku_7.txt"
+tests = [{ testcase = "7", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_7.txt"
+cms_filename = "output_7_1.txt"
+
+[[execs]]
+filename = "sudoku_8.txt"
+tests = [{ testcase = "8", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_8.txt"
+cms_filename = "output_8_1.txt"
+
+[[execs]]
+filename = "sudoku_9.txt"
+tests = [{ testcase = "9", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_9.txt"
+cms_filename = "output_9_1.txt"
+
+[[execs]]
+filename = "sudoku_10.txt"
+tests = [{ testcase = "10", expect = "PC" }]
+[execs.overwrite]
+prob_id = "sudoku"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat sudoku_10.txt"
+cms_filename = "output_10_1.txt"
+
+[[execs]]
+filename = "cover_1.txt"
+tests = [{ testcase = "1", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_1.txt"
+cms_filename = "output_1_1.txt"
+
+[[execs]]
+filename = "cover_2.txt"
+tests = [{ testcase = "2", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_2.txt"
+cms_filename = "output_2_1.txt"
+
+[[execs]]
+filename = "cover_3.txt"
+tests = [{ testcase = "3", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_3.txt"
+cms_filename = "output_3_1.txt"
+
+[[execs]]
+filename = "cover_4.txt"
+tests = [{ testcase = "4", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_4.txt"
+cms_filename = "output_4_1.txt"
+
+[[execs]]
+filename = "cover_5.txt"
+tests = [{ testcase = "5", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_5.txt"
+cms_filename = "output_5_1.txt"
+
+[[execs]]
+filename = "cover_6.txt"
+tests = [{ testcase = "6", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_6.txt"
+cms_filename = "output_6_1.txt"
+
+[[execs]]
+filename = "cover_7.txt"
+tests = [{ testcase = "7", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_7.txt"
+cms_filename = "output_7_1.txt"
+
+[[execs]]
+filename = "cover_8.txt"
+tests = [{ testcase = "8", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_8.txt"
+cms_filename = "output_8_1.txt"
+
+[[execs]]
+filename = "cover_9.txt"
+tests = [{ testcase = "9", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_9.txt"
+cms_filename = "output_9_1.txt"
+
+[[execs]]
+filename = "cover_10.txt"
+tests = [{ testcase = "10", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_10.txt"
+cms_filename = "output_10_1.txt"

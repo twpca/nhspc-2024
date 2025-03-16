@@ -1,0 +1,4 @@
+[[execs]]
+filename = "paint.cpp"
+overwrite = { prob_id = "paint" }
+tests = [{ testcase = "all", expect = "AC" }]

@@ -1,0 +1,23 @@
+[[execs]]
+filename = "nums.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+  { testcase = "all", expect = "AC" }
+]
+
+[[execs]]
+filename = "nums_nm2.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" }
+]
+
+[[execs]]
+filename = "nums_nm2_overaccess.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+  { testcase = "2", expect = "TLE" }
+]

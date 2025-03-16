@@ -1,0 +1,335 @@
+[[execs]]
+filename = "huaguo_sol.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_sol_floor.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "3", expect = "WA" },
+         { testcase = "4", expect = "WA" },
+         { testcase = "5", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_sol_wrong_ceil.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_sol2.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_sol2_floor.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_extgcd_assert.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_extgcd_incorrect_condition.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "3", expect = "RE" },
+         { testcase = "4", expect = "RE" }]
+
+[[execs]]
+filename = "huaguo_extgcd_bad_adjust.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_extgcd.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_extgcd_ll.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_simulate.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_simulate_wrong.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_simulate_wrong2.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_simulate_wrong3.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_simulate_wrong4.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_simulate_bad_adjust.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "5", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_s1.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "1", expect = "AC" },
+         { testcase = "2", expect = "WA" },
+         { testcase = "3", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_s2.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "1", expect = "WA" },
+         { testcase = "2", expect = "AC" },
+         { testcase = "3", expect = "WA" }]
+         
+[[execs]]
+filename = "huaguo_old_s3.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "3", expect = "TLE" }]
+         
+[[execs]]
+filename = "huaguo_s3.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "3", expect = "AC" },
+         { testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_s3_fast.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "3", expect = "AC" },
+         { testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_s4.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "4", expect = "AC" },
+         { testcase = "5", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_s4_no_math.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_s4_wa.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "4", expect = "WA" }]
+
+[[execs]]
+filename = "huaguo_s4_cut.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "huaguo_s4_incorrect_condition.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "fingerprint_sol.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "AC" }
+]
+
+[[execs]]
+filename = "fingerprint_s1.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" }
+]
+
+[[execs]]
+filename = "fingerprint_tle.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" }
+]
+
+[[execs]]
+filename = "pirate_hulan_good.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "pirate_hulan_strong.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "pirate_hulan1.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "WA" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "AC" },
+  { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "pirate_slow.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" },
+  { testcase = "4", expect = "TLE" }
+]
+
+#[[execs]]
+#filename = "cover1234.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [
+#  { testcase = "1", expect = "AC" },
+#  { testcase = "2", expect = "AC" },
+#  { testcase = "3", expect = "AC" },
+#  { testcase = "4", expect = "PC" }
+#]
+#
+#[[execs]]
+#filename = "cover4.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [
+#  { testcase = "4", expect = "AC" }
+#]
+#
+#[[execs]]
+#filename = "cover5.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [
+#  { testcase = "5", expect = "AC" }
+#]
+#
+#[[execs]]
+#filename = "cover6.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [
+#  { testcase = "6", expect = "AC" }
+#]
+#
+#[[execs]]
+#filename = "cover7.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [
+#  { testcase = "7", expect = "AC" },
+#  { testcase = "8", expect = "PC" },
+#  { testcase = "9", expect = "PC" },
+#]
+#
+#[[execs]]
+#filename = "cover_full.cpp"
+#overwrite = { prob_id = "cover" }
+#tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "cover_1.txt"
+tests = [{ testcase = "1", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_1.txt"
+cms_filename = "output_1_1.txt"
+
+[[execs]]
+filename = "cover_2.txt"
+tests = [{ testcase = "2", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_2.txt"
+cms_filename = "output_2_1.txt"
+
+[[execs]]
+filename = "cover_3.txt"
+tests = [{ testcase = "3", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_3.txt"
+cms_filename = "output_3_1.txt"
+
+[[execs]]
+filename = "cover_4.txt"
+tests = [{ testcase = "4", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_4.txt"
+cms_filename = "output_4_1.txt"
+
+[[execs]]
+filename = "cover_5.txt"
+tests = [{ testcase = "5", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_5.txt"
+cms_filename = "output_5_1.txt"
+
+[[execs]]
+filename = "cover_6.txt"
+tests = [{ testcase = "6", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_6.txt"
+cms_filename = "output_6_1.txt"
+
+[[execs]]
+filename = "cover_7.txt"
+tests = [{ testcase = "7", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_7.txt"
+cms_filename = "output_7_1.txt"
+
+[[execs]]
+filename = "cover_8.txt"
+tests = [{ testcase = "8", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_8.txt"
+cms_filename = "output_8_1.txt"
+
+[[execs]]
+filename = "cover_9.txt"
+tests = [{ testcase = "9", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_9.txt"
+cms_filename = "output_9_1.txt"
+
+[[execs]]
+filename = "cover_10.txt"
+tests = [{ testcase = "10", expect = "AC" }]
+[execs.overwrite]
+prob_id = "cover"
+compile = "echo 'compile'"
+execute = "/usr/bin/env cat cover_10.txt"
+cms_filename = "output_10_1.txt"

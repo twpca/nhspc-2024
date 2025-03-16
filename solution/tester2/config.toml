@@ -1,0 +1,94 @@
+[[execs]]
+filename = "indset_sort.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "PC" },
+    { testcase = "2", expect = "PC" },
+    { testcase = "3", expect = "PC" }
+]
+
+[[execs]]
+filename = "indset.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+    { testcase = "all", expect = "AC" }
+]
+
+[[execs]]
+filename = "indset_subtask1.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    # skip subtask 2, 3
+]
+
+[[execs]]
+filename = "indset_subtask2.cpp"
+overwrite = { prob_id = "indset" }
+tests = [
+    { testcase = "2", expect = "AC" },
+    # skip subtask 1, 3
+]
+
+[[execs]]
+filename = "pirate_dfs_wa.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "pirate_bfs_wa.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "pirate_no_random_wa1.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "pirate_no_random_wa2.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" }
+]
+
+[[execs]]
+filename = "pirate.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "all", expect = "AC" }
+]
+
+[[execs]]
+filename = "pirate_nm_tle.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [
+    { testcase = "0", expect = "AC" },
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "TLE" },
+    { testcase = "4", expect = "TLE" }
+]

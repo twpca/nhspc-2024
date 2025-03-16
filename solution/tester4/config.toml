@@ -1,0 +1,131 @@
+[[execs]]
+filename = "taxi.cpp"
+overwrite = { prob_id = "taxi" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "taxi_no_sort.cpp"
+overwrite = { prob_id = "taxi" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "WA" }
+]
+
+[[execs]]
+filename = "paint.cpp"
+overwrite = { prob_id = "paint" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "paint_s1.cpp"
+overwrite = { prob_id = "paint" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "paint_s2.cpp"
+overwrite = { prob_id = "paint" }
+tests = [
+    { testcase = "1", expect = "TLE" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "TLE" }
+]
+
+[[execs]]
+filename = "paint_tle.cpp"
+overwrite = { prob_id = "paint" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "TLE" }
+]
+
+[[execs]]
+filename = "nums.cpp"
+overwrite = { prob_id = "nums" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "nums_no_reverse.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "nums_wrong_condition.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "nums_wrong_condition2.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "nums_wrong_condition3.cpp"
+overwrite = { prob_id = "nums" }
+tests = [
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "television.cpp"
+overwrite = { prob_id = "television" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "fingerprint.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "fingerprint_bad_mod.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+    { testcase = "2", expect = "WA" },
+    { testcase = "3", expect = "WA" }
+]
+
+[[execs]]
+filename = "huaguo.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "huaguo_wrong_ceil.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [
+    { testcase = "1", expect = "AC" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" },
+    { testcase = "5", expect = "WA" }
+]
+
+[[execs]]
+filename = "huaguo_wrong_no_max.cpp"
+overwrite = { prob_id = "huaguo" }
+tests = [
+    { testcase = "1", expect = "WA" },
+    { testcase = "2", expect = "AC" },
+    { testcase = "3", expect = "WA" },
+    { testcase = "4", expect = "WA" },
+    { testcase = "5", expect = "WA" }
+]
+

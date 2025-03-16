@@ -1,0 +1,8 @@
+*
+!*/
+!*.cpp
+!*.txt
+!.gitignore
+!config.toml
+sample_grader.*.cpp
+grader.*.cpp

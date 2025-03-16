@@ -1,0 +1,53 @@
+[[execs]]
+filename = "fingerprint_overflow.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "WA" },
+  { testcase = "3", expect = "WA" },
+  { testcase = "4", expect = "WA" }
+]
+
+
+[[execs]]
+filename = "fingerprint_tle.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "TLE" },
+  { testcase = "3", expect = "TLE" },
+  { testcase = "4", expect = "TLE" }
+]
+
+[[execs]]
+filename = "fingerprint_tle2.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "0", expect = "AC" },
+  { testcase = "1", expect = "AC" },
+  { testcase = "2", expect = "AC" },
+  { testcase = "3", expect = "TLE" },
+  { testcase = "4", expect = "TLE" }
+]
+
+[[execs]]
+filename = "fingerprint_n_log_n.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "all", expect = "AC" },
+]
+
+
+[[execs]]
+filename = "fingerprint.cpp"
+overwrite = { prob_id = "fingerprint" }
+tests = [
+  { testcase = "all", expect = "AC" },
+]
+
+
+
+
+

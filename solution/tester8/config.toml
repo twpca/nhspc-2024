@@ -1,0 +1,31 @@
+[[execs]]
+filename = "pirate.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "all", expect = "AC" }]
+
+[[execs]]
+filename = "pirate_subtask1.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "0", expect = "AC" },
+         { testcase = "1", expect = "AC" },
+         { testcase = "2", expect = "TLE" },
+         { testcase = "3", expect = "TLE" },
+         { testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "pirate_subtask2.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "0", expect = "AC" },
+         { testcase = "1", expect = "AC" },
+         { testcase = "2", expect = "AC" },
+         { testcase = "3", expect = "TLE" },
+         { testcase = "4", expect = "TLE" }]
+
+[[execs]]
+filename = "pirate_subtask3.cpp"
+overwrite = { prob_id = "pirate" }
+tests = [{ testcase = "0", expect = "AC" },
+         { testcase = "1", expect = "AC" },
+         { testcase = "3", expect = "AC" },
+         { testcase = "4", expect = "TLE" }]
+
